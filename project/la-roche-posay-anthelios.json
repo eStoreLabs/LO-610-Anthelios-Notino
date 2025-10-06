@@ -20,7 +20,7 @@
                 "name": "asset",
                 "value": "KV.jpg",
                 "element": "img",
-                "alt": "Najskuteczniejszy filtr UV. Przed najbardziej przenikającymi promieniami UV. Anthelios UVMUNE400",
+                "alt": "",
                 "properties": {}
               }
             ],
@@ -41,7 +41,7 @@
                 "name": "asset",
                 "value": "KV-mobile.jpg",
                 "element": "img",
-                "alt": "Najskuteczniejszy filtr UV. Przed najbardziej przenikającymi promieniami UV. Anthelios UVMUNE400",
+                "alt": "",
                 "properties": {}
               }
             ],
@@ -62,7 +62,7 @@
                 "name": "asset",
                 "value": "MOD-02.jpg",
                 "element": "img",
-                "alt": "Anthelios UVMUNE400 niewidoczny fluid SPF50+. Szerokie spektrum działania przed promieniami UVA/UVB. O lekkiej, nietłustej konsystencji niewidocznej na skórze. Bardzo odporny na wodę i pot",
+                "alt": "",
                 "properties": {}
               }
             ],
@@ -83,7 +83,7 @@
                 "name": "asset",
                 "value": "MOD-02-mobile.jpg",
                 "element": "img",
-                "alt": "Anthelios UVMUNE400 niewidoczny fluid SPF50+. Szerokie spektrum działania przed promieniami UVA/UVB. O lekkiej, nietłustej konsystencji niewidocznej na skórze. Bardzo odporny na wodę i pot",
+                "alt": "",
                 "properties": {}
               }
             ],
@@ -102,23 +102,23 @@
             "data": [
               {
                 "name": "columnOneTitle",
-                "value": "Kluczowe dermatologiczne składniki aktywne",
+                "value": "",
                 "element": "h2",
-                "properties": {
-                  "fontSize": "24px",
-                  "fontFamily": "Roboto",
-                  "textTransform": "uppercase",
-                  "color": "#111111",
-                  "fontWeight": "700",
-                  "marginBottom": "10px",
-                  "textAlign": "center"
-                }
+                "properties": {}
               },
               {
                 "name": "columnOneText",
-                "value": "",
-                "element": "p",
-                "properties": {}
+                "value": "<p><b>Kluczowe dermatologiczne</b> składniki aktywne</p>",
+                "element": "DangerHtml",
+                "properties": {
+                  "fontSize": "26px",
+                  "fontFamily": "Roboto",
+                  "textTransform": "uppercase",
+                  "color": "#111111",
+                  "fontWeight": "400",
+                  "marginBottom": "10px",
+                  "textAlign": "center"
+                }
               }
             ],
             "properties": {
@@ -143,16 +143,9 @@
                 "properties": {}
               },
               {
-                "name": "asset",
-                "value": "MOD-03.jpg",
-                "element": "img",
-                "alt": "",
-                "properties": {}
-              },
-              {
                 "name": "content",
-                "value": "MEXORYL 400 Chroni przed najbardziej przenikającymi promieniami UV1. GLICERYNA\u00a0Pomaga nawilżać, odżywiać i wzmacniać barierę ochronną skóry. WODA\u00a0TERMALNA Z LA ROCHE-POSAY O\u00a0właściwościach kojących i łagodzących.",
-                "element": "p",
+                "value": "<b>MEXORYL 400</b><br>Chroni przed najbardziej przenikającymi promieniami\u00a0UV¹.<br><br><b>GLICERYNA</b><br>Pomaga nawilżać, odżywiać i wzmacniać barierę ochronną skóry.<br><br><b>WODA TERMALNA Z LA ROCHE-POSAY</b><br>O właściwościach kojących i łagodzących.",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "18px",
                   "fontFamily": "Roboto",
@@ -160,6 +153,13 @@
                   "lineHeight": "1.8",
                   "marginRight": "20px"
                 }
+              },
+              {
+                "name": "asset",
+                "value": "MOD-03.jpg",
+                "element": "img",
+                "alt": "",
+                "properties": {}
               }
             ],
             "properties": {
@@ -220,8 +220,8 @@
             "data": [
               {
                 "name": "columnOneTitle",
-                "value": "Odkryj bestsellery La Roche-Posay",
-                "element": "h2",
+                "value": "<p><b>Odkryj bestsellery</b></p> La Roche-Posay",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "30px",
                   "fontFamily": "Roboto",
@@ -259,7 +259,7 @@
                 "value": "Mikro-peelingujący żel oczyszczający",
                 "element": "h6",
                 "properties": {
-                  "fontSize": "16px",
+                  "fontSize": "14px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
@@ -285,7 +285,7 @@
                 "value": "Serum przeciw przebarwieniom",
                 "element": "h6",
                 "properties": {
-                  "fontSize": "16px",
+                  "fontSize": "14px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
@@ -311,7 +311,7 @@
                 "value": "Dodatkowa ochrona przed UVA",
                 "element": "h6",
                 "properties": {
-                  "fontSize": "16px",
+                  "fontSize": "14px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
@@ -337,7 +337,7 @@
                 "value": "Silnie regenerujący balsam kojący",
                 "element": "h6",
                 "properties": {
-                  "fontSize": "16px",
+                  "fontSize": "14px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
@@ -363,7 +363,7 @@
                 "value": "Regenerujący balsam nawilżający",
                 "element": "h6",
                 "properties": {
-                  "fontSize": "16px",
+                  "fontSize": "14px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
@@ -414,34 +414,8 @@
               },
               {
                 "name": "columnOneText",
-                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA ODPOWIEDNI DLA SKÓRY WRAŻLIWEJ I SKŁONNEJ DO ALERGII SŁONECZNEJ Koi i odżywia skórę BARDZO LEKKA, NIEWIDOCZNA NA SKÓRZE KONSYSTENCJA Nie pozostawia białych śladów na skórze",
-                "element": "p",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "400",
-                  "marginTop": "-20px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnOneTitle",
-                "value": "Składniki",
-                "element": "h6",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "700",
-                  "marginTop": "10px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnOneText",
-                "value": "Mexoryl 400 Gliceryna Woda Termalna z La Roche-Posay",
-                "element": "p",
+                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA<br>Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA<br><br>ODPOWIEDNI DLA SKÓRY WRAŻLIWEJ I SKŁONNEJ DO ALERGII SŁONECZNEJ<br>Koi i odżywia skórę<br><br>BARDZO LEKKA, NIEWIDOCZNA NA\u00a0SKÓRZE KONSYSTENCJA<br>Nie pozostawia białych śladów na\u00a0skórze<br><br><b>Składniki</b><br>Mexoryl 400<br>Gliceryna<br>Woda Termalna z La Roche-Posay",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "16px",
                   "fontFamily": "Roboto",
@@ -455,7 +429,7 @@
                 "name": "columnOneAsset",
                 "value": "MOD-06-A.jpg",
                 "element": "img",
-                "alt": "żel oczyszczający",
+                "alt": "",
                 "properties": {}
               },
               {
@@ -473,34 +447,8 @@
               },
               {
                 "name": "columnTwoText",
-                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA ODPOWIEDNI DLA WSZYSTKICH RODZAJÓW SKÓRY Testowany pod kontrolą dermatologiczną i okulistyczną pod kątem wrażliwych oczu i ich okolic. LEKKA KONSYSTENCJA WYRÓWNUJĄCA KOLORYT Bardzo lekka, nietłusta i nieklejąca się konsystencja, zapewniająca rozświetlające i koloryzujące wykończenie.",
-                "element": "p",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "400",
-                  "marginTop": "-20px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnTwoTitle",
-                "value": "Składniki",
-                "element": "h6",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "700",
-                  "marginTop": "10px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnTwoText",
-                "value": "Mexoryl 400 Gliceryna",
-                "element": "p",
+                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA<br>Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA<br><br>ODPOWIEDNI DLA WSZYSTKICH RODZAJÓW SKÓRY<br>Testowany pod kontrolą dermatologiczną i okulistyczną pod kątem wrażliwych oczu i ich okolic.<br><br>LEKKA KONSYSTENCJA WYRÓWNUJĄCA KOLORYT<br>Bardzo lekka, nietłusta i nieklejąca się konsystencja, zapewniająca rozświetlające i koloryzujące wykończenie.<br><br><b>Składniki</b><br>Mexoryl 400<br>Gliceryna",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "16px",
                   "fontFamily": "Roboto",
@@ -514,7 +462,7 @@
                 "name": "columnTwoAsset",
                 "value": "MOD-06-B.jpg",
                 "element": "img",
-                "alt": "A.z. krem-żel",
+                "alt": "",
                 "properties": {}
               },
               {
@@ -532,34 +480,8 @@
               },
               {
                 "name": "columnThreeText",
-                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA ODPOWIEDNI DLA SKÓRY TŁUSTEJ I MIESZANEJ Nietłusta formuła i efekt 12h zmatowienia skóry3 KONSYSTENCJA NIEWIDOCZNA NA SKÓRZE Nie pozostawia białych śladów na skórze",
-                "element": "p",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "400",
-                  "marginTop": "-20px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnThreeTitle",
-                "value": "Składniki",
-                "element": "h6",
-                "properties": {
-                  "fontSize": "16px",
-                  "fontFamily": "Roboto",
-                  "color": "#111111",
-                  "fontWeight": "700",
-                  "marginTop": "10px",
-                  "textAlign": "center"
-                }
-              },
-              {
-                "name": "columnThreeText",
-                "value": "Mexoryl 400 Airlicium ™",
-                "element": "p",
+                "value": "DŁUGOTRWAŁA OCHRONA PRZED UVA<br>Ochrona przed UVA/UVB oraz ultradługimi promieniami UVA<br><br>ODPOWIEDNI DLA SKÓRY TŁUSTEJ I\u00a0MIESZANEJ<br>Nietłusta formuła i efekt 12h zmatowienia skóry³<br><br>KONSYSTENCJA NIEWIDOCZNA NA\u00a0SKÓRZE<br>Nie pozostawia białych śladów na skórze<br><br><b>Składniki</b><br>Mexoryl 400<br>Airlicium™",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "16px",
                   "fontFamily": "Roboto",
@@ -573,7 +495,7 @@
                 "name": "columnThreeAsset",
                 "value": "MOD-06-C.jpg",
                 "element": "img",
-                "alt": "UV oil cotrol",
+                "alt": "",
                 "properties": {}
               }
             ],
@@ -646,8 +568,8 @@
               },
               {
                 "name": "columnOneText",
-                "value": "Promieniowanie UV (ultrafioletowe) to niewidzialna część promieniowania słonecznego, która mimo że stanowi jedynie 1–2% jego całości, ma największy wpływ na organizm człowieka. W zależności od długości fali wyróżniamy promieniowanie UVA, UVB i UVC. Promienie UVA stanowią aż 95% UV docierającego do Ziemi – przenikają głęboko w skórę i są obecne przez cały rok. UVB, mimo że jest ich znacznie mniej, odpowiadają za silne reakcje skórne, takie jak rumień czy poparzenia słoneczne. Promieniowanie UVC jest całkowicie pochłaniane przez atmosferę i nie dociera do powierzchni Ziemi.",
-                "element": "p",
+                "value": "Promieniowanie UV (ultrafioletowe) to niewidzialna część promieniowania słonecznego, która mimo że stanowi jedynie 1–2% jego całości, ma największy wpływ na organizm człowieka. W zależności od długości fali wyróżniamy promieniowanie UVA, UVB i UVC. Promienie UVA stanowią aż 95% UV docierającego do Ziemi – przenikają głęboko w skórę i są obecne przez cały rok. UVB, mimo że jest ich znacznie mniej, odpowiadają za silne reakcje skórne, takie jak rumień czy poparzenia słoneczne. Promieniowanie UVC jest całkowicie pochłaniane przez atmosferę i nie dociera do powierzchni Ziemi.<br>...",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "16px",
                   "fontFamily": "Roboto",
@@ -686,8 +608,8 @@
               },
               {
                 "name": "columnOneText",
-                "value": "Choć promienie UVA nie wywołują natychmiastowych i widocznych reakcji, jak rumień po opalaniu, to przenikają w głąb skóry i działają codziennie – przez cały rok. Ich długotrwałe oddziaływanie prowadzi do przyspieszonego starzenia się skóry, pojawiania się przebarwień oraz może powodować poważne zmiany skórne, w tym nowotwory.",
-                "element": "p",
+                "value": "Choć promienie UVA nie wywołują natychmiastowych i widocznych reakcji, jak rumień po opalaniu, to przenikają w głąb skóry i działają codziennie – przez cały rok. Ich długotrwałe oddziaływanie prowadzi do przyspieszonego starzenia się skóry, pojawiania się przebarwień oraz może powodować poważne zmiany skórne, w tym nowotwory.<br>...",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "16px",
                   "fontFamily": "Roboto",
@@ -754,15 +676,14 @@
             "data": [
               {
                 "name": "columnOneText",
-                "value": "1 Wysoki zakres długości fal UVA [380-400nm]. 2\u00a0Badanie\u00a0kliniczne\u00a0na\u00a0113\u00a0badanych, po 14 dniach użytkowania. 3\u00a0Test\u00a0konsumencki, 130 osób ze skórą mieszaną i tłustą, 28 dni.",
-                "element": "p",
+                "value": "1 Wysoki zakres długości fal UVA [380-400nm].<br>2 Badanie kliniczne na 113 badanych, po 14 dniach użytkowania.<br>3 Test konsumencki, 130 osób ze skórą mieszaną i tłustą, 28 dni.",
+                "element": "DangerHtml",
                 "properties": {
                   "fontSize": "12px",
                   "fontFamily": "Roboto",
                   "color": "#111111",
                   "fontWeight": "400",
-                  "marginBottom": "0",
-                  "maxWidth": "400px"
+                  "marginBottom": "0"
                 }
               }
             ],
