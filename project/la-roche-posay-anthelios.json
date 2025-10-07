@@ -220,14 +220,14 @@
             "data": [
               {
                 "name": "columnOneTitle",
-                "value": "<p><b>Odkryj bestsellery</b></p> La Roche-Posay",
+                "value": "<p><b>Odkryj bestsellery</b> La Roche-Posay</p>",
                 "element": "DangerHtml",
                 "properties": {
                   "fontSize": "30px",
                   "fontFamily": "Roboto",
                   "textTransform": "uppercase",
                   "color": "#111111",
-                  "fontWeight": "700",
+                  "fontWeight": "400",
                   "marginBottom": "10px",
                   "textAlign": "center"
                 }
@@ -580,8 +580,7 @@
               }
             ],
             "properties": {
-              "marginTop": "0",
-              "marginBottom": "10px",
+              "margin": "0 20px 10px 20px",
               "padding": "0 10px"
             },
             "breakpoints": {
@@ -620,8 +619,7 @@
               }
             ],
             "properties": {
-              "marginTop": "0",
-              "marginBottom": "10px",
+              "margin": "0 20px 10px 20px",
               "padding": "0 10px"
             },
             "breakpoints": {
@@ -660,8 +658,7 @@
               }
             ],
             "properties": {
-              "marginTop": "0",
-              "marginBottom": "10px",
+              "margin": "0 20px 10px 20px",
               "padding": "0 10px"
             },
             "breakpoints": {
@@ -688,8 +685,7 @@
               }
             ],
             "properties": {
-              "marginTop": "0",
-              "marginBottom": "10px",
+              "margin": "0 20px 10px 20px",
               "padding": "0 10px"
             },
             "breakpoints": {
